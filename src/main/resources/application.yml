@@ -1,0 +1,11 @@
+spring:
+  server: 1111
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: hostname
+  client:
+    register-with-eureka: false
+    fetch-registry: false
